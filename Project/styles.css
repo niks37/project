@@ -1,0 +1,156 @@
+/* #can_i_do{
+    background-color: bisque;
+    color: blueviolet;
+} */
+* {
+    box-sizing: border-box;
+}
+
+.photo-user-name{
+    display: flex;
+}
+.card{
+    border: 10px solid rgb(66, 119, 121);
+    box-shadow: 6px 6px 2px 1px rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.cardd{
+    border: 3px solid rgb(129, 247, 192);
+    box-shadow: 6px 6px 2px 1px rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+ul{
+    list-style: '- '
+}
+table {
+    border: 1px solid red;
+}
+ul li{
+    color: rgb(0, 119, 224);
+}
+li > a:visited {
+    color: rgb(255, 255, 255);
+}
+.custom_icon{
+    list-style: '✔️'
+}
+
+.title-with-list__list > li{
+    color: rgb(0, 0, 0);
+}
+
+
+
+.card > h2{
+    text-align: center;
+}
+
+main{
+    margin: 0 20px;
+}
+/* .title-with-list {
+    background-color: bisque;
+    color: blueviolet;
+}
+
+.title-with-list__title {
+    color: brown;
+}
+
+.title-with-list__list {
+    color: chartreuse;
+}
+
+.bg-color-bisque {
+    background-color: bisque;
+}
+
+.text-color-blueviolet {
+    color: blueviolet;
+}
+
+.text-color-brown {
+    color: brown;
+}
+
+.text-color-chartreuse {
+    color: chartreuse;
+} */
+
+div {
+    color: coral;
+    background-color: rgba(255, 255, 255);
+}
+
+button[type="submit"] {
+    border: 1px solid rgb(73, 73, 73);
+}
+
+button:hover {
+    border: 1px solid rgb(0, 255, 8);
+}
+
+/* #title{
+    color:deepskyblue;
+    } */
+h1.title {
+    color: rgb(0, 0, 0);
+}
+
+.temp {
+    color: rgb(59, 59, 59);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+}
+form input:focus, form input:active {
+    border: 1px solid blue;
+}
+form button:hover{
+    background-color: aqua;
+}
+form button:active{
+    background-color: rgb(57, 75, 75);
+}
+
+@media only screen and (max-width: 400px){
+    form button{
+        width: 100%;
+        height: 2rem;
+    }
+}
+.center-pic{
+    display:block;
+    margin:auto;
+    }
+    header {
+        background-color: rgb(168, 203, 255);
+    }
+    body {
+        background: #ffffff;
+      }
+      .gradient-button {
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding: 20px 30px;
+        margin: 10px 20px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
+      }
+      .gradient-button:hover {
+        background-position: right center;
+      }
+      
